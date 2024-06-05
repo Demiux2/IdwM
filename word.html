@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario - <span id="wordTitle"></span></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="wordTitle"></h1>
+        <div id="wordDetails"></div>
+        <a href="index.html">Volver al diccionario</a>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const wordParam = params.get('word');
+
+        const dictionary = [
+            {
+                word: "hello",
+                image: "images/hello.png",
+                pronunciation: "huh-loh",
+                ipa: "həˈloʊ",
+                translation: "hola"
+            },
+            {
+                word: "world",
+                image: "images/world.png",
+                pronunciation: "wurld",
+                ipa: "wɜrld",
+                translation: "mundo"
+            },
+            // Agrega más palabras aquí
+        ];
+
+        const word = dictionary.find(entry => entry.word === wordParam);
+
+        if (word) {
+            document.getElementById('wordTitle').innerText = word.word;
+            document.getElementById('wordDetails').innerHTML = `
+                <img src="${word.image}" alt="${word.word}">
+                <p><strong>Pronunciación:</strong> ${word.pronunciation}</p>
+                <p><strong>AFI:</strong> ${word.ipa}</p>
+                <p><strong>Traducción:</strong> ${word.translation}</p>
+            `;
+        } else {
+            document.getElementById('wordDetails').innerText = 'Palabra no encontrada';
+        }
+    </script>
+</body>
+</html>
