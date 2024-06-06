@@ -2,14 +2,14 @@ const dictionary = [
     {
         word: "mu",
         image: "images/mu.png",
-        pronunciation: "mu",
+        lolunciation: "mu",
         ipa: "mu",
         translation: "yo"
     },
     {
         word: "mi",
         image: "images/mi.png",
-        pronunciation: "mi",
+        lolununciation: "mi",
         ipa: "mi",
         translation: "vos"
     },
