@@ -9,7 +9,7 @@ const dictionary = [
     {
         word: "mi",
         image: "images/mi.png",
-        lolununciation: "mi",
+        lolunciation: "mi",
         ipa: "mi",
         translation: "vos"
     },
