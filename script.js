@@ -13,12 +13,19 @@ const dictionary = [
         ipa: "/mi/",
         translation: "vos"
     },
-{
+    {
         word: "me",
         image: "images/me.png",
         lolunciation: "me",
         ipa: "/me̞/",
         translation: "él"
+    },
+    {
+        word: "m#",
+        image: "images/m#.png",
+        lolunciation: "m#",
+        ipa: "/mə/",
+        translation: "ella"
     },
     // Agrega más palabras aquí
 ];
