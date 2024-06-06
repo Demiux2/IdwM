@@ -3,14 +3,14 @@ const dictionary = [
         word: "mu",
         image: "images/mu.png",
         lolunciation: "mu",
-        ipa: "mu",
+        ipa: "/mu/",
         translation: "yo"
     },
     {
         word: "mi",
         image: "images/mi.png",
         lolunciation: "mi",
-        ipa: "mi",
+        ipa: "/mi/",
         translation: "vos"
     },
     // Agrega más palabras aquí
