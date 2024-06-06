@@ -1,17 +1,17 @@
 const dictionary = [
     {
-        word: "hello",
-        image: "images/hello.png",
-        pronunciation: "huh-loh",
-        ipa: "həˈloʊ",
-        translation: "hola"
+        word: "mu",
+        image: "images/mu.png",
+        pronunciation: "mu",
+        ipa: "mu",
+        translation: "yo"
     },
     {
-        word: "world",
-        image: "images/world.png",
-        pronunciation: "wurld",
-        ipa: "wɜrld",
-        translation: "mundo"
+        word: "mi",
+        image: "images/mi.png",
+        pronunciation: "mi",
+        ipa: "mi",
+        translation: "vos"
     },
     // Agrega más palabras aquí
 ];
