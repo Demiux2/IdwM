@@ -1,2 +1,2 @@
 # IdwM
-Iwijakány' dúo wik makumva
+Iwijakány' dúo wik makumviano
