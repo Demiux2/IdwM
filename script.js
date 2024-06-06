@@ -21,9 +21,9 @@ const dictionary = [
         translation: "él"
     },
     {
-        word: "m#",
+        word: "m# ",
         image: "images/m#.png",
-        lolunciation: "m#",
+        lolunciation: "m# ",
         ipa: "/mə/",
         translation: "ella"
     },
