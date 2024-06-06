@@ -21,14 +21,14 @@
             {
                 word: "mu",
                 image: "images/mu.png",
-                pronunciation: "mu",
+                lolununciation: "mu",
                 ipa: "mu",
                 translation: "Yo"
             },
             {
                 word: "mi",
                 image: "images/mi.png",
-                pronunciation: "mi",
+                lolunciation: "mi",
                 ipa: "mi",
                 translation: "vos"
             },
@@ -41,7 +41,7 @@
             document.getElementById('wordTitle').innerText = word.word;
             document.getElementById('wordDetails').innerHTML = `
                 <img src="${word.image}" alt="${word.word}">
-                <p><strong>Pronunciación:</strong> ${word.pronunciation}</p>
+                <p><strong>Pronunciación:</strong> ${word.lolunciation}</p>
                 <p><strong>AFI:</strong> ${word.ipa}</p>
                 <p><strong>Traducción:</strong> ${word.translation}</p>
             `;
