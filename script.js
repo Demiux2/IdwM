@@ -22,7 +22,7 @@ const dictionary = [
     },
     {
         word: "m# ",
-        image: "images/m#.png",
+        image: "images/mə.png",
         lolunciation: "m# ",
         ipa: "/mə/",
         translation: "ella"
