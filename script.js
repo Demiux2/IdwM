@@ -21,8 +21,8 @@ const dictionary = [
         translation: "él"
     },
     {
-        word: "mə ",
-        image: "images/mə.png",
+        word: "më ",
+        image: "images/më.png",
         lolunciation: "më ",
         ipa: "/mə/",
         translation: "ella"
@@ -49,8 +49,8 @@ const dictionary = [
         translation: "ellos"
     },
     {
-        word: "mək ",
-        image: "images/mək.png",
+        word: "mëk ",
+        image: "images/mëk.png",
         lolunciation: "mëk ",
         ipa: "/mək/",
         translation: "ellas"
