@@ -21,7 +21,7 @@ const dictionary = [
         translation: "él"
     },
     {
-        word: "m# ",
+        word: "mə ",
         image: "images/mə.png",
         lolunciation: "m# ",
         ipa: "/mə/",
@@ -49,7 +49,7 @@ const dictionary = [
         translation: "ellos"
     },
     {
-        word: "m#k ",
+        word: "mək ",
         image: "images/mək.png",
         lolunciation: "m#k ",
         ipa: "/mək/",
